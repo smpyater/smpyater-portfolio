@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nase | VA & Graphic Designer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Animated Background -->
+<div class="gradient-bg">
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+    <div class="blob blob3"></div>
+</div>
+
+<!-- Sticky Navbar -->
+<nav class="animate fade-down delay-1">
+    <h1 class="logo">Nase</h1>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+    <h2 class="animate fade-up delay-1">Virtual Assistant &</h2>
+    <h1 class="animate fade-up delay-2">Graphic Designer</h1>
+    <p class="animate fade-up delay-3">
+        Helping brands stay organized, aesthetic, and ahead of the game.
+    </p>
+    <a href="#contact" class="btn animate scale-up delay-4">
+        Let’s Work Together
+    </a>
+</section>
+
+<!-- About -->
+<section id="about" class="glass-section animate fade-up">
+    <h2>About Me</h2>
+    <p>
+        I am an aspiring Virtual Assistant with a background in IT, skilled in administrative support, web development, and graphic design. I specialize in data entry, email management, online research, and social media support, while also offering basic website and design assistance. I am detail-oriented, adaptable, and committed to delivering efficient, high-quality work to help businesses grow.
+    </p>
+</section>
+
+<!-- Services + Tools & Technologies -->
+<section id="services" class="animate fade-up">
+    <h2>Services</h2>
+
+    <!-- Service Cards -->
+    <div class="card-container">
+        <div class="card animate fade-up delay-1">
+            <h3>Virtual Assistance</h3>
+            <p>Email management, scheduling, research, automation.</p>
+        </div>
+
+        <div class="card animate fade-up delay-2">
+            <h3>Graphic Design</h3>
+            <p>Branding, posters, thumbnails, social media kits.</p>
+        </div>
+
+        <div class="card animate fade-up delay-3">
+            <h3>Web Development</h3>
+            <p>Modern responsive websites with smooth animations.</p>
+        </div>
+    </div>
+
+    <!-- Tools & Technologies Side-by-Side -->
+    <div class="tools-row animate fade-up">
+
+        <!-- Design Tools -->
+        <div class="tools-column">
+            <h3 class="sub-title">Tools</h3>
+            <div class="tools-grid">
+				<div class="tool-card">
+                    <img src="icons/figma.svg" alt="">
+                    <span>Figma</span>
+                </div>
+                <div class="tool-card">
+                    <img src="icons/canva.svg" alt="">
+                    <span>Canva</span>
+                </div>
+                <div class="tool-card">
+                    <img src="icons/vs.svg" alt="">
+                    <span>Visual Studio</span>
+                </div>
+				<div class="tool-card">
+                    <img src="icons/notepad.svg" alt="">
+                    <span>Notepad++</span>
+                </div>
+				<div class="tool-card">
+                    <img src="icons/shopify.svg" alt="">
+                    <span>Shopify</span>
+                </div>
+				<div class="tool-card">
+                    <img src="icons/wordpress.svg" alt="">
+                    <span>WordPress</span>
+                </div>
+                <div class="tool-card">
+                    <img src="icons/wix.svg" alt="">
+                    <span>Wix</span>
+                </div>
+				<div class="tool-card">
+                    <img src="icons/android.svg" alt="">
+                    <span>Android Studio</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Technologies -->
+        <div class="tools-column">
+            <h3 class="sub-title">Technologies</h3>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <img src="icons/html.svg" alt="">
+                    <span>HTML</span>
+                </div>
+                <div class="tool-card">
+                    <img src="icons/css.svg" alt="">
+                    <span>CSS</span>
+                </div>
+                <div class="tool-card">
+                    <img src="icons/js.svg" alt="">
+                    <span>JavaScript</span>
+                </div>
+                <div class="tool-card">
+                    <img src="icons/php.svg" alt="">
+                    <span>PHP</span>
+                </div>
+				<div class="tool-card">
+                    <img src="icons/bootstrap.svg" alt="">
+                    <span>Bootstrap</span>
+                </div>
+				<div class="tool-card">
+                    <img src="icons/python.svg" alt="">
+                    <span>Python</span>
+                </div>
+				<div class="tool-card">
+                    <img src="icons/sharp.svg" alt="">
+                    <span>C#</span>
+                </div>
+				<div class="tool-card">
+                    <img src="icons/plus.svg" alt="">
+                    <span>C++</span>
+                </div>
+				<div class="tool-card">
+                    <img src="icons/java.svg" alt="">
+                    <span>Java</span>
+                </div>
+				<div class="tool-card">
+                    <img src="icons/sql.svg" alt="">
+                    <span>SQL</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Portfolio -->
+<section id="portfolio" class="glass-section animate fade-up">
+    <h2>Featured Work</h2>
+    <div class="portfolio-grid">
+
+    <div class="portfolio-item animate scale-up delay-1">
+        <img src="works/certificate.png" alt="" onclick="openModal(this.src)">
+        <div class="portfolio-content">
+            <h4>VA Certification</h4>
+            <p>Qualification as a Virtual Assitant.</p>
+        </div>
+    </div>
+
+    <div class="portfolio-item animate scale-up delay-2">
+        <img src="works/internship.png" alt="" onclick="openModal(this.src)">
+        <div class="portfolio-content">
+            <h4>VA Internship Completion</h4>
+            <p>Completed the training as a Virtual Assistant</p>
+        </div>
+    </div>
+
+    <div class="portfolio-item animate scale-up delay-3">
+        <img src="works/chicken_poster.png" alt="" onclick="openModal(this.src)">
+        <div class="portfolio-content">
+            <h4>Advertisment Poster</h4>
+            <p>Designed a simple poster for a restaurant</p>
+        </div>
+    </div>
+
+    <div class="portfolio-item animate scale-up delay-4">
+        <img src="works/tarpaulin.png" alt="" onclick="openModal(this.src)">
+        <div class="portfolio-content">
+            <h4>Pageant Tarpaulin</h4>
+            <p>Created a tarpaulin design for pageant cheer squad</p>
+        </div>
+    </div>
+	
+	<div class="portfolio-item animate scale-up delay-5">
+        <img src="works/logos.png" alt="" onclick="openModal(this.src)">
+        <div class="portfolio-content">
+            <h4>Logo</h4>
+            <p>Created a few logos for brands, pages, and gaming logos</p>
+        </div>
+    </div>
+	
+	<div class="portfolio-item animate scale-up delay-6">
+        <img src="works/mobile.png" alt="" onclick="openModal(this.src)">
+        <div class="portfolio-content">
+            <h4>Rewards App UI</h4>
+            <p>Designed a Rewards App UI</p>
+        </div>
+    </div>
+
+	<div class="portfolio-item animate scale-up delay-7">
+        <img src="works/splash.png" alt="" onclick="openModal(this.src)">
+        <div class="portfolio-content">
+            <h4>Splash Screens</h4>
+            <p>Designed a few splash screens for a mobile application</p>
+        </div>
+    </div>
+	
+	<div class="portfolio-item animate scale-up delay-8">
+        <img src="works/socmed.png" alt="" onclick="openModal(this.src)">
+        <div class="portfolio-content">
+            <h4>Mock Social Media Posts</h4>
+            <p>During my training as a VA, I was tasked to create a mock social media post</p>
+        </div>
+    </div>
+	
+</div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="contact-section animate fade-up">
+    <div class="contact-container">
+
+        <div class="contact-text">
+            <h2>Let’s Connect</h2>
+            <p>Email: smpyater@gmail.com</p>
+            <p>Contact No.: +63 927 879 0826</p>
+			<p>LinkedIn: www.linkedin.com/in/yater-sean</p>
+
+            <!-- Small spacing above CV -->
+            <div class="cv-space">
+                <a href="Yater CV_VA.pdf" download class="btn">
+                    Download CV
+                </a>
+            </div>
+        </div>
+
+        <div class="contact-photo">
+            <img src="profile.png" alt="Your Photo">
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Nase. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+<!-- Image Modal -->
+<div id="imageModal" class="image-modal">
+    <span class="close-modal" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+</body>
+</html>
